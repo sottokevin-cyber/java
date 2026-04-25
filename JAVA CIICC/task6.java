@@ -7,7 +7,8 @@ public class task6 {
     
         for(int number:numbers){
 
-            if(number%2==0&&number<237)System.out.print(number+" ");
+            if(number%2==0)System.out.print(number+" ");
+            if(number==237) break;
 
         }
 
